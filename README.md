@@ -3,9 +3,19 @@
 
 [[OpenReview](https://openreview.net/forum?id=u2qYzRRg02)] [[Project Page](https://ai4mol.github.io/projects/DPF)]
 
-The official implementation of Boost Your Crystal Model with Denoising Pre-training (ICML AI4Science Workshop 2024) & A Denoising Pre-training Framework for Accelerating Novel Material Discovery (AAAI 2025).
+## News
 
+Stay updated with the latest milestones of our work:
 
+- 🌟 **Featured at [ICML AI4Science Workshop 2024](https://openreview.net/forum?id=u2qYzRRg02)**  
+  *"Boost Your Crystal Model with Denoising Pre-training"*
+
+- 🌟 **Presented at [AAAI Conference 2025 （to appear）](https://aaai.org/)**  
+  *"A Denoising Pre-training Framework for Accelerating Material Discovery"*
+
+## Dataset
+
+Dataset used for pre-training can be found at [GNoME](https://github.com/google-deepmind/materials_discovery).
 
 ## Training and Prediction
 
@@ -18,8 +28,10 @@ cd matformer
 bash pretrain.sh
 ```
 
+For training your own custom models, you only need to replace the model with your own.
+
 ## Citation
-Please cite our paper if you find the code helpful or if you want to use the benchmark results of the Materials Project and JARVIS. Thank you!
+Please cite our paper if you find the code helpful.
 ```
 @inproceedings{shen2024boost,
   title={Boost Your Crystal Model with Denoising Pre-training},
