@@ -10,7 +10,7 @@ Stay updated with the latest milestones of our work:
 - 🌟 **Featured at [ICML AI4Science Workshop 2024](https://openreview.net/forum?id=u2qYzRRg02)**  
   *"Boost Your Crystal Model with Denoising Pre-training"*
 
-- 🌟 **Presented at [AAAI Conference 2025 （to appear）](https://aaai.org/)**  
+- 🌟 **Presented at [AAAI Conference 2025](https://ojs.aaai.org/index.php/AAAI/article/view/35058)**  
   *"A Denoising Pre-training Framework for Accelerating Material Discovery"*
 
 ## Dataset
@@ -33,12 +33,22 @@ For training your own custom models, you only need to replace the model with you
 ## Citation
 Please cite our paper if you find the code helpful.
 ```
-@inproceedings{shen2024boost,
+@inproceedings{DPF_ICML,
   title={Boost Your Crystal Model with Denoising Pre-training},
   author={Shuaike Shen and Ke Liu and Muzhi Zhu and Hao Chen},
   booktitle={ICML 2024 AI for Science Workshop},
   year={2024},
   url={https://openreview.net/forum?id=u2qYzRRg02}
+}
+
+@inproceedings{DPF_AAAI,
+  title={A Denoising Pre-training Framework for Accelerating Novel Material Discovery},
+  author={Shen, Shuaike and Liu, Ke and Zhu, Muzhi and Chen, Hao},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={27},
+  pages={28368--28376},
+  year={2025}
 }
 ```
 
