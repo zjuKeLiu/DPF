@@ -15,7 +15,7 @@ Stay updated with the latest milestones of our work:
 
 ## Dataset
 
-Dataset used for pre-training can be found at [GNoME](https://github.com/google-deepmind/materials_discovery).
+The dataset used for pre-training can be found at [GNoME](https://github.com/google-deepmind/materials_discovery).
 
 ## Training and Prediction
 
@@ -50,12 +50,26 @@ Please cite our paper if you find the code helpful.
   pages={28368--28376},
   year={2025}
 }
+
+@inproceedings{ijcai2022p708,
+  title     = {S2SNet: A Pretrained Neural Network for Superconductivity Discovery},
+  author    = {Liu, Ke and Yang, Kaifan and Zhang, Jiahong and Xu, Renjun},
+  booktitle = {Proceedings of the Thirty-First International Joint Conference on
+               Artificial Intelligence, {IJCAI-22}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Lud De Raedt},
+  pages     = {5101--5107},
+  year      = {2022},
+  month     = {7},
+  doi       = {10.24963/ijcai.2022/708},
+  url       = {https://doi.org/10.24963/ijcai.2022/708},
+}
 ```
 
 ## Acknowledgement
 
-This repo is built upon the previous work ALIGNN and MatFormer
+This repo is built upon the previous work ALIGNN and MatFormer. The original idea comes from S2SNet.
 
 ## Contact
 
-If you have any question, please contact me at kliu@zju.edu.cn
+If you have any questions, please contact me at kliu@zju.edu.cn
